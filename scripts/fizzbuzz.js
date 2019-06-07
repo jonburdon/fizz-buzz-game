@@ -1,3 +1,3 @@
 fizzBuzzGame = function(fb) {
-    return "fizzBuzz";
+    return "fizzBuzzAnswer";
 };
