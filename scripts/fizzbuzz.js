@@ -1,3 +1,3 @@
-fizzBuzzGame2 = function(fb) {
+fizzBuzzGame = function(fb) {
     return "fizzBuzz";
 };
