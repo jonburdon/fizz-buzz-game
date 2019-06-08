@@ -1,8 +1,16 @@
 fizzBuzzGame = function(fb) {
     if (fb % 3 === 0) {
-        return "Fizz";
+        if (fb % 5 === 0) {
+            return "FizzBuzz";
+        }
+        else {
+            return "Fizz";
+        }
+    }
+    else if (fb % 5 === 0){
+        return "Buzz";
     }
     else {
-        return "not Fizz";
+        return fb;
     }
 };
