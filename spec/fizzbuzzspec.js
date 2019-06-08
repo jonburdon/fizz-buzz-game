@@ -37,6 +37,20 @@ describe("Fizz Buzz Game", function() {
             expect(result).toBe(1);
         });
     });
+    
+                   describe("Checks fb input", function() {
+        it("should return Please enter a number", function() {
+            var result = fizzBuzzGame("cabbage")
+            expect(result).toBe("Please enter a number.");
+        });
+    });
+    
+                  describe("Checks fb input", function() {
+        it("should return Please enter a number", function() {
+            var result = fizzBuzzGame(-1)
+            expect(result).toBe("Number should be 0 or higher.");
+        });
+    });
 
 });
 

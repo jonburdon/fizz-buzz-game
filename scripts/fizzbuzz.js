@@ -1,5 +1,12 @@
 fizzBuzzGame = function(fb) {
-    if (fb % 3 === 0) {
+    if (isNaN(fb)) {
+        return "Please enter a number."
+    }
+    else if (fb < 0) {
+        return "Number should be 0 or higher."
+    }
+    
+    else if (fb % 3 === 0) {
         if (fb % 5 === 0) {
             return "FizzBuzz";
         }
