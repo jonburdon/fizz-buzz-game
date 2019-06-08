@@ -13,7 +13,7 @@ describe("Fizz Buzz Game", function() {
         describe("Checks fb input", function() {
         it("should return fizzBuzz", function() {
             var result = fizzBuzzGame(2)
-            expect(result).toBe(3);
+            expect(result).toBe(2);
         });
     });
 
