@@ -1,3 +1,8 @@
 fizzBuzzGame = function(fb) {
-    return fb;
+    if (fb % 3 === 0) {
+        return "Fizz";
+    }
+    else {
+        return "not Fizz";
+    }
 };

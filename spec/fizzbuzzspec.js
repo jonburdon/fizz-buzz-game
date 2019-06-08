@@ -11,9 +11,9 @@ describe("Fizz Buzz Game", function() {
     });
     
         describe("Checks fb input", function() {
-        it("should return fizzBuzz", function() {
-            var result = fizzBuzzGame(2)
-            expect(result).toBe(2);
+        it("should return Fizz", function() {
+            var result = fizzBuzzGame(100)
+            expect(result).toBe("Fizz");
         });
     });
 
